@@ -1,5 +1,5 @@
 let heroi = "Espadachim Negro";
-let experiencia = 9000;
+let experiencia = 1000;
 let patente = "madeira";
 
 if (experiencia >= 10000) {patente = "Radiante";}
@@ -10,6 +10,7 @@ if (experiencia >= 10000) {patente = "Radiante";}
                                         else if (experiencia >= 5001 && experiencia <= 6000) {patente = "Ouro";} 
                                                 else if (experiencia >= 2001 && experiencia <= 5000) {patente = "Prata";}
                                                         else if (experiencia >= 1001 && experiencia <= 2000) {patente = "Bronze";}
+                                                                else if (experiencia <= 1000) {patente = "Ferro";                                                              }
 
 console.log("O Herói de nome " + heroi + " está nível " + patente + ".");
     
